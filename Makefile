@@ -6,8 +6,8 @@ clean:
 	rm tests/*-output.txt
 
 README.md: README.md.in $(TESTS)
-	@perl tools/cat.pl $< > $@
+	perl tools/cat.pl $< > $@
 
-%-output.txt: %-input.txt
+%-output.txt: %-input.txt pangu.pl
 	cat $< | \
 		perl pangu.pl > $@

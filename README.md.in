@@ -17,6 +17,7 @@ letters, numerical digits and symbols).
 >   己的貓。畢竟愛情跟書寫都需要適時地留白。
 >
 >   與大家共勉之。
+>
 >   　　　　　　　　　　　　　　　　-- vinta
 
 Other Implementations:
@@ -38,6 +39,10 @@ $ cat path/to/file
 $ cat path/to/file | perl pangu.pl
 @include <-=tests/test1-output.txt=
 ```
+
+## Words to Say / 说明
+
+为了防止“`中文`”变成“` 中文 `”，在“\`”和中文之间不自动加入空格，请手动添加。
 
 ---
 

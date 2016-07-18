@@ -17,6 +17,7 @@ letters, numerical digits and symbols).
 >   己的貓。畢竟愛情跟書寫都需要適時地留白。
 >
 >   與大家共勉之。
+>
 >   　　　　　　　　　　　　　　　　-- vinta
 
 Other Implementations:
@@ -40,12 +41,16 @@ $ cat path/to/file
 我家的光纖入屋寬頻有 10Gbps，SSD 一共有 20TB。
 
 $ cat path/to/file | perl pangu.pl
-新八的構造成分有 95% 眼鏡、3% 水、2% 垃圾。
-在 LeanCloud ，數據存儲是圍繞`AVObject`進行的。Good.
-今天出去買菜花了 5000 。
-今天出去買菜花了 5000 。
+新八的構造成分有 95% 是眼鏡、3% 是水、2% 是垃圾。
+在 LeanCloud 上，數據存儲是圍繞`AVObject`進行的。Good.
+今天出去買菜花了 5000 元。
+今天出去買菜花了 5000 元。
 我家的光纖入屋寬頻有 10Gbps，SSD 一共有 20TB。
 ```
+
+## Words to Say / 说明
+
+为了防止“`中文`”变成“` 中文 `”，在“\`”和中文之间不自动加入空格，请手动添加。
 
 ---
 
